@@ -3,17 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Bullet
+  - Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Bullet
+  - Enemy
+  - Wall
   - 
   - 
   - 
@@ -38,6 +41,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 107843743
+    locked: 0
+  - name: Underplayer
+    uniqueID: 2699096321
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Overlayer
+    uniqueID: 1095717051
     locked: 0
